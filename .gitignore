@@ -1,0 +1,10 @@
+## Ignore AGS temporary files, build results
+
+# Build results
+_debug/
+[Cc]ompiled/
+
+# Windows
+desktop.ini
+AssetAsyst.GUI/Services/HeavyRoute/AnalysisService.cs.orig
+AssetAsyst.GUI/Services/HeavyRoute/AnalysisService.cs.orig
