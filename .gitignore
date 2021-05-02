@@ -3,6 +3,8 @@
 # Build results
 _debug/
 [Cc]ompiled/
+[Gg]raphics/
+[Ss]ounds/
 
 # Windows
 desktop.ini

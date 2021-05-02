@@ -67,18 +67,18 @@
       <HasMODMusic>False</HasMODMusic>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
       <GameExplorerEnabled>False</GameExplorerEnabled>
-      <Description />
+      <Description xml:space="preserve">Gilbert's Journey - A 3D Animated Adventure Game</Description>
       <ReleaseDate>2018-01-01</ReleaseDate>
       <Genre>Adventure</Genre>
       <Version>1.0.0.0</Version>
       <WindowsExperienceIndex>1</WindowsExperienceIndex>
       <DeveloperName />
-      <DeveloperURL />
+      <DeveloperURL>http://www.adamdavidcollings.com</DeveloperURL>
       <EnhancedSaveGames>False</EnhancedSaveGames>
       <SaveGameFileExtension />
-      <SaveGameFolderName xml:space="preserve">Gilbert's Journey</SaveGameFolderName>
+      <SaveGameFolderName>Gilbert1</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>2</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -644,7 +644,15 @@
         <UnloadedRooms>
           <UnloadedRoom>
             <Number>1</Number>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Intro Cinematic - Hand</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>2</Number>
+            <Description xml:space="preserve">Outside House</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>3</Number>
+            <Description xml:space="preserve">Inside Hose</Description>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -677,7 +685,7 @@
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <Text>@GAMENAME@</Text>
+                <Text xml:space="preserve">Gilbert's Journey</Text>
                 <Height>10</Height>
                 <Locked>True</Locked>
                 <Width>100</Width>
@@ -688,7 +696,7 @@
                 <Name>lblGameName</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Visible>True</Visible>
+                <Visible>False</Visible>
               </GUILabel>
               <GUILabel>
                 <TextAlignment>Left</TextAlignment>
@@ -4369,6 +4377,21 @@
               <ImportAlphaChannel>False</ImportAlphaChannel>
             </Source>
           </Sprite>
+          <Sprite Slot="1" Width="20" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+            <Source>
+              <FileName />
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>49</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>BottomLeft</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -4683,7 +4706,34 @@ See KeyboardMovement.txt for details.
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aDoorOpen</ScriptName>
+                <ID>0</ID>
+                <SourceFileName>sounds/DoorOpen.mp3</SourceFileName>
+                <Index>1</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-05-02 05:52:38Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDoorClose</ScriptName>
+                <ID>1</ID>
+                <SourceFileName>sounds/DoorClose.mp3</SourceFileName>
+                <Index>2</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-05-02 06:07:18Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
