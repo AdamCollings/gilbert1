@@ -654,6 +654,10 @@
             <Number>3</Number>
             <Description xml:space="preserve">Inside Hose</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>4</Number>
+            <Description xml:space="preserve">Back of house</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
