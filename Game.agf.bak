@@ -660,10 +660,18 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>5</Number>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Beach (Jacosa)</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>300</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>6</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>7</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
         </UnloadedRooms>
